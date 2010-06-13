@@ -10,11 +10,11 @@ filenames. DZIP converts any non-UTF-8 filenames to UTF-8.
 Installation
 ------------
 
--   Install the `rubyzip` gem, if you have not already done so.
+1.   Install the `rubyzip` gem, if you have not already done so.
 
         gem install rubyzip
 
--   Get a copy of DZIP [here](http://github.com/Domon/DZIP).
+2.   Get a copy of DZIP [here](http://github.com/Domon/DZIP).
 
         git clone git://github.com/Domon/DZIP.git
 
@@ -22,7 +22,7 @@ Installation
 
         wget http://github.com/Domon/DZIP/raw/master/dz.rb
 
--   Make it executable.
+3.   Make it executable.
 
         chmod u+x dz.rb
 
