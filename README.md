@@ -10,19 +10,19 @@ filenames. DZIP converts any non-UTF-8 filenames to UTF-8.
 Installation
 ------------
 
-#  Install the `rubyzip` gem, if you have not already done so.
+-   Install the `rubyzip` gem, if you have not already done so.
 
         gem install rubyzip
 
-#  Get a copy of DZIP [here](http://github.com/Domon/DZIP).
+-   Get a copy of DZIP [here](http://github.com/Domon/DZIP).
 
         git clone git://github.com/Domon/DZIP.git
 
-   or 
+    or
 
         wget http://github.com/Domon/DZIP/raw/master/dz.rb
 
-#  Make it executable.
+-   Make it executable.
 
         chmod u+x dz.rb
 
@@ -46,15 +46,15 @@ Usage
 Examples
 --------
 
-*  List the contents of "日本語ファイル名.zip"
+*   List the contents of "日本語ファイル名.zip"
 
         ./dz.rb -tf 日本語ファイル名.zip
 
-*  Extract "日本語ファイル名.zip" verbosely
+*   Extract "日本語ファイル名.zip" verbosely
 
         ./dz.rb -xvf 日本語ファイル名.zip
 
-*  Extract "日本語ファイル名.zip" to a directory named "フォルダ"
+*   Extract "日本語ファイル名.zip" to a directory named "フォルダ"
 
         ./dz.rb -xf 日本語ファイル名.zip -C フォルダ/
 
